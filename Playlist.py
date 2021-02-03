@@ -80,7 +80,7 @@ class Playlist:
     else:
       while main.get_next_song() != None:
         counter += 1
-        maine = main.get_next_song()
+        main = main.get_next_song()
 
     return counter + 1
 
